@@ -1,0 +1,31 @@
+@font-face {
+    font-family: '1942-report';
+    src: url('Font/1942-webfont.eot') format('eot'), url('Font/1942-webfont.woff') format('woff'), url('Font/1942-webfont.ttf') format('truetype'), url('Font/1942-webfont.svg') format('svg');
+}
+
+h2 {
+    color: #FF0000;
+}
+
+h1,
+h1+p {
+    text-align: center;
+}
+
+body {
+    background: url("image/fond_de_site.gif") fixed repeat;
+}
+
+h1,
+h2 {
+    font-family: '1942-report', Arial, serif;
+}
+
+h1 {
+    border: 10px #000000 double;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+figure {
+    text-align: center;
+}
