@@ -22,6 +22,7 @@ figure {
 h1,
 h2 {
     font-family: '1942-report', Arial, serif;
+    text-align: center;
 }
 
 h1 {
@@ -52,6 +53,7 @@ h2 {
 section {
     display: flex;
     flex-direction: row;
-    margin-left: 15%;
+    justify-content: space-between;
+    margin-left: 10%;
     margin-top: 5%;
 }
