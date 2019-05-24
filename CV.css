@@ -3,17 +3,20 @@
     src: url('Font/1942-webfont.eot') format('eot'), url('Font/1942-webfont.woff') format('woff'), url('Font/1942-webfont.ttf') format('truetype'), url('Font/1942-webfont.svg') format('svg');
 }
 
-h2 {
-    color: #FF0000;
-}
-
-h1,
-h1+p {
-    text-align: center;
-}
-
 body {
     background: url("image/fond_de_site.gif") fixed repeat;
+}
+
+#entete {
+    display: flex;
+    flex-direction: row;
+    margin-left: 36%;
+}
+
+figure {
+    text-align: center;
+    float: right;
+    margin-left: 50%;
 }
 
 h1,
@@ -26,6 +29,29 @@ h1 {
     box-shadow: 5px 5px 5px #000000;
 }
 
-figure {
+h1,
+h1+p {
     text-align: center;
+    margin-left: 11%;
+}
+
+h2 {
+    color: #FF0000;
+}
+
+#liseret {
+    float: left;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: #000000;
+    margin-top: 0;
+    border-radius: 5%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 5%;
 }
