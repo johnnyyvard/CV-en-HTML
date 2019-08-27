@@ -57,3 +57,46 @@ section {
     margin-left: 10%;
     margin-top: 5%;
 }
+
+
+/*-------------------------- Responsive design --------------------------*/
+
+@media all and (max-width: 1024px) {
+    #entete {
+        display: flexbox;
+        flex-direction: unset;
+        margin-left: 31px;
+    }
+    figure {
+        text-align: start;
+        margin-left: 10px;
+        float: right;
+        margin-right: 0px;
+    }
+    h1,
+    h2 {
+        text-align: justify;
+    }
+    h1 {
+        border: none;
+        box-shadow: none;
+    }
+    h1,
+    h1+p {
+        text-align: center;
+        margin-left: 11%;
+    }
+    h2 {
+        color: #FF0000;
+    }
+    #liseret {
+        display: none;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
